@@ -1,0 +1,2 @@
+const e=document.documentElement,o=document.querySelector(".start-video__button"),t=document.querySelector(".video-overlay__button-close"),l=document.querySelector(".video-overlay");o.addEventListener("click",()=>{l.style.display="grid",e.style.overflow="hidden",e.scroll="no"}),t.addEventListener("click",()=>{l.style.display="none",e.style.overflow="scroll",e.scroll="yes"});const r=document.querySelector(".dropdown");r.querySelector(".dropdown__trigger").addEventListener("click",()=>{r.classList.toggle("dropdown--active")});
+//# sourceMappingURL=index.7c730c3b.js.map
